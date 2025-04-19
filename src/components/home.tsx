@@ -5,6 +5,7 @@ import FeaturedDishes from "./FeaturedDishes";
 import LocationWidget from "./LocationWidget";
 import NewsletterSection from "./NewsletterSection";
 import Navbar from "./Navbar";
+import Footer from "./Footer";
 
 interface HomeProps {
   restaurantInfo?: {
@@ -61,6 +62,9 @@ const Home = ({
 
       {/* Newsletter Section */}
       <NewsletterSection />
+
+      {/* Footer */}
+      <Footer />
     </div>
   );
 };

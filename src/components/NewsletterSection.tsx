@@ -29,7 +29,7 @@ const NewsletterSection = ({
   };
 
   return (
-    <section className="w-full py-16 bg-[url('https://images.unsplash.com/photo-1579871494447-9811cf80d66c')] bg-cover bg-center bg-fixed">
+    <section className="w-full py-16 bg-[url('https://images.unsplash.com/photo-1579871494447-9811cf80d66c')] bg-cover bg-center bg-fixed" id="location">
       <div className="w-full h-full bg-black/70 backdrop-blur-sm py-16">
         <div className="container mx-auto px-4">
           <div className="max-w-2xl mx-auto text-center">

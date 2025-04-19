@@ -33,7 +33,7 @@ const FeaturedDishes = ({
   ],
 }: FeaturedDishesProps) => {
   return (
-    <section className="py-16 px-4 bg-amber-50">
+    <section className="py-16 px-4 bg-amber-50" id="menu">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-12">
           <h2 className="text-4xl font-playfair text-gray-900 mb-4">

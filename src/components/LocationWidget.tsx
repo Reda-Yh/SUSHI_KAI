@@ -17,11 +17,11 @@ const LocationWidget = ({
   hours = [
     { day: "Monday-Thursday", hours: "11:30 AM - 10:00 PM" },
     { day: "Friday-Saturday", hours: "11:30 AM - 11:00 PM" },
-    { day: "Sunday", hours: "12:00 PM - 9:30 PM" },
+    { day: "Sunday", hours: "12:00 PM - 10:30 PM" },
   ],
 }: LocationWidgetProps) => {
   return (
-    <div className="w-full max-w-[1200px] mx-auto p-6">
+    <div className="w-full max-w-[1200px] mx-auto p-6" id="about">
       <div className="text-center mb-12">
         <h2 className="text-4xl font-bold text-white mb-4">Visit Us</h2>
         <p className="text-gray-400">
@@ -53,7 +53,7 @@ const LocationWidget = ({
                       className="flex justify-between text-gray-300"
                     >
                       <span className="font-medium">{item.day}</span>
-                      <span>{item.hours}</span>
+                      <span className="ml-4">{item.hours}</span>
                     </div>
                   ))}
                 </div>
